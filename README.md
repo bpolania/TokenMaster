@@ -1,4 +1,4 @@
-The TokenMaster contract is a MiniMe Token token with extra functionality:
+The TokenMaster contract is a MiniMe Token with extra functionality:
 
 ### Especially customized for event ticket sales!
 

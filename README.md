@@ -6,8 +6,7 @@ The TokenMaster contract is a MiniMe Token with extra functionality:
 
 * You can also limit the number of tickets a single account can own.
 
-Disclaimer: This token contract's is based on [Jordi Baylina's MiniMe Token](https://github.com/Giveth/minime) and it is intended to be MiniMe compliant, but still needs to under go further testing.
-
+Disclaimer: This token contract's is based on [Jordi Baylina's MiniMe Token](https://github.com/Giveth/minime) and it is intended to be MiniMe compliant, but it's still at a very early stage and needs to go under further testing and may require a lot of improvements, use it at your own risk!
 
 ## The MiniMe Token
 

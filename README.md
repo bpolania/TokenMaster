@@ -8,7 +8,15 @@ The TokenMaster contract is a MiniMe Token with extra functionality:
 
 Disclaimer: This token contract's is based on [Jordi Baylina's MiniMe Token](https://github.com/Giveth/minime) and it is intended to be MiniMe compliant, but it's still at a very early stage and needs to go under further testing and may require a lot of improvements, use it at your own risk!
 
-## The MiniMe Token
+### How to deploy an Event
+
+1. Deploy the TokenMasterFactory
+2. Deploy the TokenMaster
+3. Deploy the event
+4. Assign the controller of the TokenMaster to the event.
+
+
+## About The MiniMe Token
 
 ### The token is easy to clone!
 
@@ -56,6 +64,7 @@ If transfersEnabled == false, tokens cannot be transferred by the users, however
 
 If this token contract is used as the base token, then clones of itself can be easily generated at any given block number, this allows for incredibly powerful functionality, effectively the ability for anyone to give extra features to the token holders without having to migrate to a new contract. Some of the applications that the MiniMe token contract can be used for are:
 
+1. Generating multi-tiered ticket sales for any kind of events like concerts, fairs, performances, etc.
 1. Generating a voting token that is burned when you vote.
 2. Generating a discount "coupon" that is redeemed when you use it.
 3. Generating a token for a "spinoff" DAO.
